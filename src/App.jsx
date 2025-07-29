@@ -9,13 +9,13 @@ const imageWidth = 12800;
 const imageHeight = 12800;
 const bounds = [[0, 0], [imageHeight, imageWidth]];
 
-// logs latlong on click
-// function OnMapClick() {
-//   useMapEvent('click', (e) => {
-//     console.log(e.latlng);
-//   });
-//   return null;
-// }
+// logs latlong in easy to copy format on click
+function OnMapClick() {
+  useMapEvent('click', (e) => {
+    console.log("[" + e.latlng.lat + ", " + e.latlng.lng + "]");
+  });
+  return null;
+}
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
       > 
         <Sidebar />        
         <ImageOverlay url={imageUrl} bounds={bounds} />
-        {/* <OnMapClick /> */}
+        <OnMapClick />
       </MapContainer>
     </div>
   );
