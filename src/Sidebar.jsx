@@ -1,33 +1,31 @@
 import './Sidebar.css';
 import logo from './assets/drehmal_text_logo.png';
 import * as React from 'react';
-import Markers from './Markers';
+import Markers, { markerMap } from './Markers';
 
-const initialShownMarkers = [
-    { show: true, name: "Terminus Towers" },
-    { show: true, name: "Legendary Items" },
-    { show: true, name: "Points of Interest" },
-];
+const initialShownMarkers = Object.fromEntries(
+    Object.keys(markerMap).map(name => [name, true])
+);
 
 function Sidebar() {
     const [shownMarkersState, setShownMarkersState] = React.useState(initialShownMarkers);
 
-    function handleShownMarkersChange(index) {
-        const newState = shownMarkersState.map((marker, i) =>
-            i === index ? { ...marker, show: !marker.show } : marker
-        );
-        setShownMarkersState(newState);
+    function handleShownMarkersChange(name) {
+        setShownMarkersState(prev => ({
+            ...prev,
+            [name]: !prev[name]
+        }));
     }
 
-    function Checkbox({ label, i }) {
+    function Checkbox({ label }) {
         return (
             <>
                 <input
                     className="checkbox"
                     type="checkbox"
-                    id={ label }
-                    onChange={ () => handleShownMarkersChange(i) }
-                    checked={ shownMarkersState[i].show }
+                    id={label}
+                    onChange={() => handleShownMarkersChange(label)}
+                    checked={shownMarkersState[label]}
                 />
                 <label className="label" htmlFor={label}>{label}</label>
             </>
@@ -38,19 +36,21 @@ function Sidebar() {
         <>
             <div className="sidebar">
                 <div className="logo-container">
-                    <img className="logo" src={logo} />
-                    <h2 style={{ textAlign: "center" }}>Interactive Map</h2>
+                    <a href="https://www.drehmal.net/">
+                        <img className="logo" src={logo} />
+                    </a>
+                    <h2 style={{ textAlign: "center" }}>Interactive Map</h2>                    
                 </div>
                 <fieldset>
                     <legend>Filter:</legend>
-                    {shownMarkersState.map((marker, i) => (
-                        <div key={i}>
-                            <Checkbox label={marker.name} i={i} />
+                    {Object.keys(shownMarkersState).map(name => (
+                        <div key={name}>
+                            <Checkbox label={name} />
                         </div>
                     ))}
                 </fieldset>
             </div>
-            <Markers shownMarkers={ shownMarkersState } />
+            <Markers shownMarkers={shownMarkersState} />
         </>
     );
 }
