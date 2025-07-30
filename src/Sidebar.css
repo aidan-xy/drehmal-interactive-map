@@ -29,6 +29,10 @@
   display: block;
 }
 
+.logo-text {
+  font-family: serif;
+}
+
 .sidebar h2 {
   margin: 0;
   font-size: 20px;
@@ -39,5 +43,6 @@
     margin-left: 15px;
 }
 .label {
-    margin-left: 5px;
+    margin-left: 5px;    
+    font-family: monospace;
 }

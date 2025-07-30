@@ -37,9 +37,9 @@ function Sidebar() {
             <div className="sidebar">
                 <div className="logo-container">
                     <a href="https://www.drehmal.net/">
-                        <img className="logo" src={logo} />
+                        <img className="logo" src={logo} target="_blank" />
                     </a>
-                    <h2 style={{ textAlign: "center" }}>Interactive Map</h2>                    
+                    <h2 className="logo-text" style={{ textAlign: "center" }}>Interactive Map</h2>                    
                 </div>
                 <fieldset>
                     <legend>Filter:</legend>

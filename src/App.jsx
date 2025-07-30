@@ -27,9 +27,9 @@ function App() {
         bounds={bounds}
         maxBounds={bounds}
         maxBoundsViscosity={1.0}
-        minZoom={-4}
+        minZoom={-3}
         maxZoom={1}
-        zoom={-4}
+        zoom={-3}
       > 
         <Sidebar />        
         <ImageOverlay url={imageUrl} bounds={bounds} />

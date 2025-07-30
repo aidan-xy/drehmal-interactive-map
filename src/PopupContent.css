@@ -1,0 +1,36 @@
+.popup-heading {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+.link-icon {
+  height: 1.3em;
+  width: auto;
+  display: inline;
+  vertical-align: baseline;
+}
+
+.link-icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.popup-image {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0 0 0 0;
+}
+
+.subtext {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 0.95em;
+    font-style: italic;
+    font-family: cursive;
+}
