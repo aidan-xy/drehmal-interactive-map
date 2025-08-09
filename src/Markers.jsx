@@ -50,10 +50,7 @@ function Markers({ shownMarkers }) {
         if (isShown && markerMap[category]) {
             const { markers: groupMarkers, icon } = markerMap[category];
             markers = markers.concat(
-                groupMarkers.map(m => ({
-                    ...m,
-                    icon
-                }))
+                groupMarkers.map(m => ({ ...m, icon }))
             );
         }
     }
@@ -61,7 +58,11 @@ function Markers({ shownMarkers }) {
     return (
         <>
             {markers.map((marker, index) => (
-                <Marker key={index} position={marker.coords} icon={marker.icon}>
+                <Marker 
+                    key={index} 
+                    position={marker.coords} 
+                    icon={marker.icon}                    
+                >
                     <Popup>{marker.popUp}</Popup>
                 </Marker>
             ))}

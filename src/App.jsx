@@ -5,8 +5,8 @@ import L from 'leaflet';
 import Sidebar from './Sidebar';
 
 const imageUrl = '../drehmal-full-map.png';
-const imageWidth = 12800;
-const imageHeight = 12800;
+const imageWidth = 16000;
+const imageHeight = 16000;
 const bounds = [[0, 0], [imageHeight, imageWidth]];
 
 // logs latlong in easy to copy format on click
