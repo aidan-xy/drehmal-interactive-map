@@ -4,11 +4,11 @@ export const terminusMarkers = [
     {
         coords: [10560, 9130.5],
         popUp: <PopupContent 
-                  name="Akhlo'Rohma Terminus Tower" 
-                  link="https://wiki.drehmal.cyou/World/Regions/Eastern_Regions/Akhlo%27Rohma/#terminus-tower"
-                  subtext="Akhlo'Rohma's Terminus tower is located in the southwest of the region, overgrown with giant vines. The sides of the tower and surrounding areas are guarded by hostile Lahrs Adherents."
-                  imageURL="https://wiki.drehmal.cyou/assets/img/regions/new/AK_tower.png"
-                  coords="(X: 1898, Y: 161, Z: -1281)"
+            name="Akhlo'Rohma Terminus Tower" 
+            link="https://wiki.drehmal.cyou/World/Regions/Eastern_Regions/Akhlo%27Rohma/#terminus-tower"
+            subtext="Akhlo'Rohma's Terminus tower is located in the southwest of the region, overgrown with giant vines. The sides of the tower and surrounding areas are guarded by hostile Lahrs Adherents."
+            imageURL="https://wiki.drehmal.cyou/assets/img/regions/new/AK_tower.png"
+            coords="(X: 1898, Y: 161, Z: -1281)"
             />
     },
     {
@@ -86,7 +86,7 @@ export const terminusMarkers = [
         popUp: <PopupContent 
             name="Hellcrags Terminus Tower" 
             link="https://wiki.drehmal.cyou/World/Regions/Western_Regions/Hellcrags/#terminus-tower" 
-            subtext="The Hellcrags' Terminus tower sits in a lava lake in the region's west. It is surrounded on four sides by obsidian spikes about half the tower's height, protruding upward and inward." 
+            subtext="Hellcrags' Terminus tower sits in a lava lake in the region's west. It is surrounded on four sides by obsidian spikes about half the tower's height, protruding upward and inward." 
             imageURL="https://wiki.drehmal.cyou/assets/img/regions/new/HC_tower.png"
             coords="(X: -4269, Y: 77, Z: 6024)"
         />
@@ -136,7 +136,7 @@ export const terminusMarkers = [
         popUp: <PopupContent 
             name="South Heartwood Terminus Tower" 
             link="https://wiki.drehmal.cyou/World/Regions/Eastern_Regions/South_Heartwood/#terminus-tower" 
-            subtext="The South Heartwood's Terminus tower is located in the desert in the region's east. A small slope of sand leans against its base, allowing access to the first of the protruding beams of red sandstone that are scattered across the tower's eastern side." 
+            subtext="South Heartwood's Terminus tower is located in the desert in the region's east. A small slope of sand leans against its base, allowing access to the first of the protruding beams of red sandstone that are scattered across the tower's eastern side." 
             imageURL="https://wiki.drehmal.cyou/assets/img/regions/new/SH_tower.png"
             coords="(X: 1884, Y: 76, Z: 3731)"
         />
@@ -156,7 +156,7 @@ export const terminusMarkers = [
         popUp: <PopupContent 
             name="Mt. Ebonfire Terminus Tower" 
             link="https://wiki.drehmal.cyou/World/Regions/Western_Regions/Mt._Ebonfire/#terminus-tower" 
-            subtext="The Mt. Ebonfire region's Terminus tower is located northeast of Mt. Ebonfire itself, on the bank of the waterway surrounding the volcano. A wooden bridge leads from the top of a nearby ridge to a wooden platform circling the tower on its upper half. Its base is guarded by Undead Miner zombies." 
+            subtext="Mt. Ebonfire region's Terminus tower is located northeast of Mt. Ebonfire itself, on the bank of the waterway surrounding the volcano. A wooden bridge leads from the top of a nearby ridge to a wooden platform circling the tower on its upper half. Its base is guarded by Undead Miner zombies." 
             imageURL="https://wiki.drehmal.cyou/assets/img/regions/new/EB_tower.png"
             coords="(X: -2847, Y: 179, Z: 210)"
         />
@@ -176,7 +176,7 @@ export const terminusMarkers = [
         popUp: <PopupContent 
             name="North Heartwood Terminus Tower" 
             link="https://wiki.drehmal.cyou/World/Regions/Eastern_Regions/North_Heartwood/#terminus-tower" 
-            subtext="The North Heartwood's Terminus tower is situated on a bluff in the region's center, protruding from the canopy below with giant vines wrapping around it." 
+            subtext="North Heartwood's Terminus tower is situated on a bluff in the region's center, protruding from the canopy below with giant vines wrapping around it." 
             imageURL="https://wiki.drehmal.cyou/assets/img/regions/new/NH_tower.png"
             coords="(X: 1706, Y; 232, Z: 2370)"
         />
@@ -196,7 +196,7 @@ export const terminusMarkers = [
         popUp: <PopupContent 
             name="Palisades Heath Terminus Tower" 
             link="https://wiki.drehmal.cyou/World/Regions/Central_Regions/Palisades_Heath/#terminus-tower" 
-            subtext="The Palisades Heath Terminus tower is located in the region's north, next to the main road. It stands inside a pit with a partially frozen lake at the bottom. A bridge juts out from the edge of the pit and ends in front of the tower's midsection." 
+            subtext="Palisades Heath Terminus tower is located in the region's north, next to the main road. It stands inside a pit with a partially frozen lake at the bottom. A bridge juts out from the edge of the pit and ends in front of the tower's midsection." 
             imageURL="https://wiki.drehmal.cyou/assets/img/regions/new/PH_tower.png"
             coords="(X: -156, Y: 101, Z: 2547)"
         />
@@ -206,7 +206,7 @@ export const terminusMarkers = [
         popUp: <PopupContent 
             name="Purity Peaks Terminus Tower" 
             link="https://wiki.drehmal.cyou/World/Regions/Eastern_Regions/Purity_Peaks/#terminus-tower" 
-            subtext="The Purity Peaks Terminus tower is located in a small swampy patch in the region's center. Its lower half is ringed by a quartz structure and must be climbed by jumping across the beams of the structure, culminating in a pressure plate that gives the player levitation 5 for 7 seconds, allowing for an easy ascent to the top." 
+            subtext="Purity Peaks Terminus tower is located in a small swampy patch in the region's center. Its lower half is ringed by a quartz structure and must be climbed by jumping across the beams of the structure, culminating in a pressure plate that gives the player levitation 5 for 7 seconds, allowing for an easy ascent to the top." 
             imageURL="https://wiki.drehmal.cyou/assets/img/regions/new/PP_tower.png"
             coords="(X: 2040, Y: 116, Z: 606)"
         />

@@ -11,9 +11,9 @@ export const poiMarkers = [
       <PopupContent 
         name="Ancehl Castle"
         link={ generatePOILink("Ancehl Castle") } 
-        subtext="Placeholder subtext" 
-        imageURL="#"
-        coords="(X: 0, Y: 0, Z: 0)"
+        subtext="The regional seat of power in Akhlo'Rohma for over two-thousand years, Ancehl Castle stands today as the lone surviving structure of what used to be a prominent city." 
+        imageURL="https://wiki.drehmal.cyou/assets/img/poi/ancehl_castle.png"
+        coords="(X: 1510, Y: 144, Z: -2012)"
       />
     )
   }, 
@@ -23,9 +23,9 @@ export const poiMarkers = [
       <PopupContent 
         name="The Foundry"
         link={ generatePOILink("Foundry") } 
-        subtext="Placeholder subtext" 
-        imageURL="#"
-        coords="(X: 0, Y: 0, Z: 0)"
+        subtext="The Foundry served as the empire's center for arms manufacturing and combat training and is possibly the single most challenging combat encounter in the entirety of Drehmal." 
+        imageURL="https://wiki.drehmal.cyou/assets/img/poi/foundry_bridge.png"
+        coords="(X: -3276, Y: 157, Z: 1500)"
       />
     )
   }, 
