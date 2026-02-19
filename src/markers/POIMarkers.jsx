@@ -1,5 +1,6 @@
 import PopupContent from "../PopUpContent";
 
+// could break in the future
 function generatePOILink(name) {
   return `https://wiki.drehmal.cyou/World/Points_of_Interest/${name.replace(/ /g, "_")}/`;
 }
