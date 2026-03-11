@@ -1,6 +1,7 @@
 import PopupContent from "../PopUpContent";
 import avpodImg from '../assets/legendary-images/avpod.png';
 
+// could break in the future
 function generateLegendaryLink(name) {
   return `https://wiki.drehmal.cyou/Items/Legendary_Items/${name.replace(/ /g, "_")}/`;
 }

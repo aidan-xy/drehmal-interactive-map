@@ -9,7 +9,7 @@ const imageWidth = 16000;
 const imageHeight = 16000;
 const bounds = [[0, 0], [imageHeight, imageWidth]];
 
-// logs latlong in easy to copy format on click
+// logs latlong in easy to copy format on click, DEPRECIATED
 function OnMapClick() {
   useMapEvent('click', (e) => {
     console.log("[" + e.latlng.lat + ", " + e.latlng.lng + "]");
