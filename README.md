@@ -8,4 +8,5 @@ commands:
 1. npm install
 2. npm run build
 3. npm run dev
+
 from your terminal in the root directory. Visit the shown localhost link in any web browser.
